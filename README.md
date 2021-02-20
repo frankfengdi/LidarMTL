@@ -2,7 +2,10 @@
 This repository is the official code release of `LidarMTL`, a multi-task network that jointly perform six perception tasks for 3D object detection and road understanding. The code is implemented in Pytorch and based on [`OpenPCDet`](https://github.com/open-mmlab/OpenPCDet). All experiments were conducted using the [`Argoverse Dataset`](https://www.argoverse.org/data.html#tracking-link).
 
 LidarMTL performs 3D object detection, foreground classification, intra-object part location regression, drivable area classification, ground classification, and ground height estimation. The network architecture of the LidarMTL can be found below:
+
+
 <img src="doc/network.png" style="border:5px solid black" width="80%">
+
 ## Installation
 All the codes are tested on Ubuntu 16.04, Python 3.6, PyTorch 1.7, CUDA 11.2. The proposed method is based on 3D sparse convolution and deconvolution. Please install the SparseConv library from [`[spconv v1.2]`](https://github.com/traveller59/spconv). 
 
