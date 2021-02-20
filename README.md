@@ -15,17 +15,17 @@ python setup.py develop
 The network is tested on the [`Argoverse Dataset`](https://www.argoverse.org/data.html#tracking-link), which is converted into the KITTI format. Use the [`argoverse-kitti-adapter`](https://github.com/frankfengdi/argoverse-kitti-adapter) to convert data and store the dataset into the folder /data/arogverse/. The directory should look like this:
 ```
 LidarMTL
-└── argoverse                                             <----root_dir
-    └── aargoverse_dataset_lidar_augmented_kitti_format   <----data_dir
+└── argoverse <----root_dir
+    └── argoverse_dataset_lidar_augmented_kitti_format <----data_dir
         └── training
     		└── calib
     		└── velodyne
     		└── image_2
     		└── label_2
-    		└── ego_vehicle_pose                          <-----optional
-    		└── ego_vehicle_ground_height                 <-----optional
-		└── ImageSets	                                  <-----data split
-		└── statistics	                                  <-----data distribution
+    		└── ego_vehicle_pose <-----optional
+    		└── ego_vehicle_ground_height <-----optional
+		└── ImageSets <-----data split
+		└── statistics <-----data distribution
 ```
 Then run:
 ```

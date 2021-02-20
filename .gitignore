@@ -3,11 +3,7 @@
 **egg-info**
 **dist**
 data
-data/
-data_original/
-output/
 spconv
-spconv/
 **debug**
 **argoverse_results**
 *.pyc
