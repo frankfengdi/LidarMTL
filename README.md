@@ -61,5 +61,10 @@ We would like to thank `OpenPCDet`, an open source project for LiDAR-based 3D sc
 ## Citation 
 If you find this project useful in your research, please consider to cite:
 ```
-coming soon ...
+@article{feng2021simple,
+  title={A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding},
+  author={Feng, Di and and Zhou, Yiyang and Xu, Chenfeng and Tomizuka, Masayoshi and Zhan, Wei},
+  journal={arXiv preprint arXiv:submit/3636893},
+  year={2021}
+}
 ```
