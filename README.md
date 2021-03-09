@@ -1,4 +1,6 @@
-# A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding
+# [`A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding`](https://arxiv.org/pdf/2103.04056.pdf)
+by Di Feng, Yiyang Zhou, Chenfeng Xu, Masayoshi Tomizuka, and Wei Zhan
+
 This repository is the official code release of `LidarMTL`, a multi-task network that jointly perform six perception tasks for 3D object detection and road understanding. The code is implemented in Pytorch and based on [`OpenPCDet`](https://github.com/open-mmlab/OpenPCDet). All experiments were conducted using the [`Argoverse Dataset`](https://www.argoverse.org/data.html#tracking-link).
 
 LidarMTL performs 3D object detection, foreground classification, intra-object part location regression, drivable area classification, ground classification, and ground height estimation. The network architecture of the LidarMTL can be found below:
